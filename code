@@ -1,0 +1,36 @@
+import webbrowser
+print ('what country')
+car_varieties = input("japanse, german, or american?")
+
+if car_varieties == "japanese":
+    brand = input("what brand")
+     
+    if model == "honda":
+        webbrowser.open("https://www.eaglehonda.com/")
+    elif model == "nissain":
+        webbrowser.open("https://www.trophynissan.com")
+    else:
+            if model =="mazda":
+                webbrowser.open("http://www.freemanmazda.net")
+if car_varieties == "american":
+    brand = input("what brand")
+    if model == "ford":
+        webbrowser.open("https://parkcitiesfordofdallas.com/")
+    elif model == "chevy":
+        webbrowser.open("https://www.friendlychevy.com")
+    else:
+            if model =="tesla":
+                print("you cant get a tesla in texas.")
+
+if car_varieties == "german":
+        brand = input("what brand")
+        if model == "volkswagen":
+            webbrowser.open("http://www.rustywallisvw.com")
+        elif model == "mercedes":
+            webbrowser.open("https://www.parkplace.com/dealership/motorcars/dallas.htm")
+        else:
+                if model =="porsche":
+                    webbrowser.open("https://www.parkplaceporsche.com")
+else:
+    webbrowser.open("https://google.com")
+
